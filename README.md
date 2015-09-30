@@ -7,33 +7,33 @@ This script isn't mine. I just took it from this [gist](https://gist.github.com/
 ## Example use: 
  ```js
 var object = {
-	"dict1key": {
-		"dict2key": [
+	"obj1key": {
+		"obj2key": [
 			{
-				"dict3key": {
+				"obj3key": {
 					"tell":"me"
 				}
 			}
 		]
 	},
-	"dict4key": {
-		"dict5key": {
-			"dict6key": "hi!",
-			"dict7key": "how are you?"
+	"obj4key": {
+		"obj5key": {
+			"obj6key": "hi!",
+			"obj7key": "how are you?"
 		}
 	}
 };
 
-var objectCollapsed = CollapseLib.collapseDict(object);
+var objectCollapsed = CollapseLib.collapseObj(object);
 ```
 
 Results in:
 
 ```js
 {
-	"dict1key.dict2key.[0].dict3key.tell": "me",
-	"dict4key.dict5key.dict6key": "hi!",
-	"dict4key.dict5key.dict7key": "how are you?"
+	"obj1key.obj2key.[0].obj3key.tell": "me",
+	"obj4key.obj5key.obj6key": "hi!",
+	"obj4key.obj5key.obj7key": "how are you?"
 }
 ```
 
