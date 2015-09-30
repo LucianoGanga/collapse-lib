@@ -1,0 +1,40 @@
+{
+  "name": "simple-rbac-utils",
+  "version": "1.0.4",
+  "description": "Complement to be used with the module simple-rbac",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LucianoGanga/simple-rbac-utils.git"
+  },
+  "keywords": [
+    "plugin",
+    "rbac",
+    "user",
+    "Role based access control",
+    "dust"
+  ],
+  "author": {
+    "name": "Luciano Andrés Ganga Carabante"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/LucianoGanga/simple-rbac-utils/blob/master/LICENSE-MIT"
+  }],
+  "bugs": {
+    "url": "https://github.com/LucianoGanga/simple-rbac-utils/issues"
+  },
+  "homepage": "https://github.com/LucianoGanga/simple-rbac-utils",
+  "devDependencies": {
+    "lodash": "3.10.0",
+    "winston": "1.0.0"
+  },
+  "dependencies": {
+    "lodash": "3.10.0",
+    "winston": "1.0.0"
+  },
+  "maintainers": [{
+    "name": "lucho_1312",
+    "email": "lucho_1312@hotmail.com"
+  }]
+}
