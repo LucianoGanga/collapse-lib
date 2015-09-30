@@ -2,7 +2,7 @@
 Library to collapse an multi-level object into one level object, using dot notation
 
 ### Note
-This script isn't mine. I've just take it from this [gist](https://gist.github.com/alabid/3154631) made by [alabid](https://github.com/alabid)
+This script isn't mine. I just took it from this [gist](https://gist.github.com/alabid/3154631) made by [alabid](https://github.com/alabid)
 
 ## Example use: 
  ```js
