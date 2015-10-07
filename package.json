@@ -1,6 +1,6 @@
 {
   "name": "collapse-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library to collapse an multi-level object into one level object, using dot notation",
   "main": "index.js",
   "repository": {
