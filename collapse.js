@@ -13,7 +13,7 @@
  */
 
 // if you have an empty object, just return an empty object
-function collapseObj(complexObj) {
+function collapseObj(complexObj, stringifyArray) {
 	// make plain object to return
 	var plainObj = {},
 		sawComplex = false,
@@ -36,7 +36,12 @@ function collapseObj(complexObj) {
 				}
 			} else if (Array.isArray && Array.isArray(complexObj[complexKey])) {
 				if (!isComplexArray(complexObj[complexKey])) {
-					plainObj[complexKey] = getStrFromArray(complexObj[complexKey]);
+					if (stringifyArray) {
+						plainObj[complexKey] = getStrFromArray(complexObj[complexKey]);
+					} else {
+						plainObj[complexKey] = complexObj[complexKey];
+					}
+
 				} else {
 					sawComplex = true;
 					for (var i = 0; i < complexObj[complexKey].length; i++) {
