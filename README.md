@@ -4,6 +4,11 @@ Library to collapse an multi-level object into one level object, using dot notat
 ### Note
 This script isn't mine. I just took it from this [gist](https://gist.github.com/alabid/3154631) made by [alabid](https://github.com/alabid)
 
+## Install
+```
+npm install collapse-lib --save
+```
+
 ## Example use: 
  ```js
 var object = {
